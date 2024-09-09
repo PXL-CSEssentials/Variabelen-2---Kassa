@@ -39,5 +39,4 @@ Tot slot kan ik als gebruiker de applicatie afsluiten door op de
 
 ![Afbeelding met tekst, schermopname, software, Computerpictogram
 Automatisch gegenereerde
-beschrijving](./media/image1.png){width="6.399305555555555in"
-height="2.732638888888889in"}
+beschrijving](./media/image1.png)
