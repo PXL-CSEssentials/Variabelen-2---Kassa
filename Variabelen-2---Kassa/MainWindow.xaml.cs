@@ -27,30 +27,31 @@ namespace Variabelen_2___Kassa
 
         private void checkNumberButton_Click(object sender, RoutedEventArgs e)
         {
-            const int getal = 97;
-            int ondernemingsnummer = int.Parse(VATNumberTextBox.Text);
+            const int CheckNumber = 97;
+            int vatNumber = int.Parse(VATNumberTextBox.Text);
             // int ondernemingsnummer = Convert.ToInt32(TxtOndNr1.Text);
-            int resultaat = getal - (ondernemingsnummer % getal);
+            int result = CheckNumber - (vatNumber % CheckNumber);
 
-            checkNumberTextBox.Text = Convert.ToString(resultaat);
+            checkNumberTextBox.Text = Convert.ToString(result);
         }
 
         private void calculateButton_Click(object sender, RoutedEventArgs e)
         {
             // Declaratie variabelen.     
-            float prijs, teBetalen;
-            int aantal;
+            float price;
+            float amountToPay;
+            int amount;
 
             // De gebruiker geeft de prijs en het aantal stuks in.  
             // prijs = Convert.ToSingle(TxtPrijs.Text); 
-            prijs = float.Parse(priceTextBox.Text);
-            aantal = int.Parse(amountTextBox.Text);
+            price = float.Parse(priceTextBox.Text);
+            amount = int.Parse(amountTextBox.Text);
 
             // Berekenen van het te betalen bedrag.     
-            teBetalen = prijs * aantal;
+            amountToPay = price * amount;
 
             // Tonen van het te betalen bedrag.
-            amountToPayTextBox.Text = teBetalen.ToString();
+            amountToPayTextBox.Text = amountToPay.ToString();
 
             clearButton.Focus();
         }
