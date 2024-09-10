@@ -1,9 +1,9 @@
-﻿<Window x:Class="Oefening2.MainWindow"
+﻿<Window x:Class="Variabelen_2___Kassa.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Oefening2"
+        xmlns:local="clr-namespace:Variabelen_2___Kassa"
         mc:Ignorable="d"
         Title="Kassa" Height="300" Width="700">
     <Grid>

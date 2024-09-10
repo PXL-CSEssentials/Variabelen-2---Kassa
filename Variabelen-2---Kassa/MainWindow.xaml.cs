@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Oefening2
+namespace Variabelen_2___Kassa
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
